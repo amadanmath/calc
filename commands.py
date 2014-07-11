@@ -7,3 +7,6 @@ def command_divide(a1, a2):
         return None
     else:
         return a1 / a2
+
+def command_answer_to_life():
+    return 42
