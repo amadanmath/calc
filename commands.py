@@ -1,6 +1,9 @@
 def command_sum(*args):
     return sum(args)
 
+def command_summod(*args):
+    return sum(args[:-1])%args[-1]
+
 def command_divide(a1, a2):
     if not a2:
         print "DAME!!!"
