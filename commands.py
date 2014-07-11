@@ -10,3 +10,6 @@ def command_divide(a1, a2):
 
 def command_answer_to_life():
     return 42
+
+def command_greg(*args):
+    return sum(args) * 0
